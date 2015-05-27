@@ -90,7 +90,7 @@ private:
 	Node* head;
 	Node* tail;
 	Node* current;
-	int length;
+	unsigned int length;
 
 	//Помощни функции
 	void copyList(const List<T>&);
